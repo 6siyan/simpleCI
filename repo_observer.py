@@ -51,7 +51,7 @@ def poll():
                 if response != "OK":
                     raise Exception("Could not dispatch the test: %s" %
                     response)
-                print "dispatched!"
+                print("dispatched!")
             else:
                 # Something wrong happened to the dispatcher
                 raise Exception("Could not dispatch the test: %s" %
